@@ -58,7 +58,7 @@ while True:
             customer_name = "Unknown"
 
                     
-        if 45<Confidence<100:
+        if 45<Confidence<80:
             # Create rectangle around the face
             cv2.rectangle(frame, (x - 20, y - 20), (x + w + 20, y + h + 20), faceRectangleBorderColor, faceRectangleBorderSize)
 
